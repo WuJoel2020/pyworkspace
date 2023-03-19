@@ -1,3 +1,9 @@
 {
-    "python.formatting.provider": "black"
+    // 这里设置的优先级是最高的
+    "python.formatting.provider": "black",
+    "editor.wordWrap": "on",
+    "files.autoSave": "afterDelay",
+    "editor.mouseWheelZoom": true,
+    "files.autoSaveDelay": 500,
+    "notebook.lineNumbers": "on"
 }
